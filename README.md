@@ -1,12 +1,54 @@
-# React + Vite
+# AI Chatbot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is an AI-powered chatbot built using React.js. The project provides interactive and intelligent conversations with users using AI models.
 
-Currently, two official plugins are available:
+## Live Demo
+Check out the live version of the project:
+[AI Chatbot Live](https://ai-chatbot-theta-cyan.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- AI-powered chatbot responses
+- User-friendly interface
+- Responsive design
+- Real-time interaction
 
-## Expanding the ESLint configuration
+## Technologies Used
+- React.js
+- Tailwind CSS (for styling)
+- OpenAI API / Dialogflow (for AI responses, if implemented)
+- Vercel (for deployment)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Sagar1566/AI-Chatbot.git
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd AI-Chatbot
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm start
+   ```
+
+## Deployment
+The project is deployed using Vercel. To deploy your own version:
+1. Install Vercel CLI:
+   ```sh
+   npm install -g vercel
+   ```
+2. Deploy:
+   ```sh
+   vercel
+   ```
+
+## Contributing
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
+
+## License
+This project is open-source and available under the MIT License.
